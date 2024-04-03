@@ -1,0 +1,62 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif; /* ใช้ฟอนต์ Roboto สำหรับข้อความทั่วไป */
+    background-color: #f0f8ff; /* สีฟ้าอ่อน */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4682b4; /* สีฟ้าอ่อน */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 0;
+}
+
+.container {
+    width: 45%;
+    margin: 0 10px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4682b4; /* สีฟ้าอ่อน */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6a5acd; /* เพิ่มเฉดสีสำหรับ hover */
+}
+
+footer {
+    background-color: #343a40; /* สีเทาเข้ม */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}

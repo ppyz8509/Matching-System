@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Matching System</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt&family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <link rel="stylesheet" href="sweetalert2.min.css">
+    </head>
+<body>
+    <header>
+        <h1>Entrepreneurs and Interns Matching System</h1>
+    </header>
+
+    <main>
+        <section id="entrepreneurs" class="container">
+            <input type="text" id="searchInputEntrepreneurs" oninput="search('entrepreneurs')" placeholder="Search entrepreneurs...">
+            <!-- Display entrepreneurs here -->
+        </section>
+        <section id="interns" class="container">
+            <input type="text" id="searchInputInterns" oninput="search('interns')" placeholder="Search interns...">
+            <!-- Display interns here -->
+            <div id="selectedCompany"></div> <!-- Add this line -->
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Matching System. All rights reserved by Naphat 644259030.</p>
+    </footer>
+
+
+  
+    <script src="script.js"></script>
+</body>
+</html>
